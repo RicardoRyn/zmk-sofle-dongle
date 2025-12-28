@@ -109,13 +109,13 @@ layers:
   - RGB OFF
   - RGB EFF
   - RGB EFR
-  - RGB SPD
-  - RGB SPI
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRD
-  - RGB BRI
   - RGB HUD
   - RGB HUI
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
+  - $$mdi:mouse-right-click-outline$$
   - RGB ON
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
