@@ -25,3 +25,8 @@
 
 <img src="keymap-drawer/eyelash_sofle.svg" >
 
+# 一般步骤
+
+1. 接受器，左手键盘，右手键盘，依次刷入reset固件
+2. 接受器，左手键盘，右手键盘，依次刷入各自的固件
+
