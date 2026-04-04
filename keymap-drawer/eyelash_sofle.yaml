@@ -92,7 +92,7 @@ layers:
   - END
   - {t: ']', s: '}'}
   - {t: ']', s: '}'}
-  - Game
+  - {t: Game, h: toggle}
   - $$mdi:printer-outline$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -222,7 +222,7 @@ layers:
   - O
   - P
   - {t: '[', s: '{'}
-  - {t: '$$mdi:apple-keyboard-control$$', type: held}
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
@@ -253,7 +253,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - {t: F1, type: held}
+  - F1
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
