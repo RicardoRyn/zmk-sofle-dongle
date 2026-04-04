@@ -83,7 +83,7 @@
             bindings = <
 &kp GRAVE   &kp F1           &kp F2           &kp F3           &kp F4           &kp F5                        &mmv MOVE_UP                  &kp F6     &kp F7          &kp F8        &kp F9     &kp F10         &kp DELETE
 &kp GRAVE   &kp F11          &kp F12          &kp UP           &kp ENTER        &kp INSERT                    &mmv MOVE_DOWN                &kp HOME   &kp PG_DN       &kp PG_UP     &kp END    &kp RBKT        &kp RBKT
-&mo 3       &kp PSCRN        &kp LEFT         &kp DOWN         &kp RIGHT        &kp BACKSPACE                 &mmv MOVE_LEFT                &kp LEFT   &kp DOWN        &kp UP        &kp RIGHT  &kp BSLH        &kp BSLH
+&to 3       &kp PSCRN        &kp LEFT         &kp DOWN         &kp RIGHT        &kp BACKSPACE                 &mmv MOVE_LEFT                &kp LEFT   &kp DOWN        &kp UP        &kp RIGHT  &kp BSLH        &kp BSLH
 &trans      &none            &none            &none            &none            &none                         &mmv MOVE_RIGHT               &mkp LCLK  &msc SCRL_DOWN  &msc SCRL_UP  &mkp RCLK  &none           &trans
 &kp C_MUTE  &trans           &trans           &trans           &trans           &trans                        &mkp LCLK                     &trans     &trans          &trans        &trans     &trans
             >;
@@ -110,7 +110,7 @@
 &kp TAB     &kp Q      &kp W      &kp E     &kp R      &kp T                &kp DOWN_ARROW                &kp Y      &kp U      &kp I      &kp O      &kp P     &kp LBKT
 &kp LCTRL   &kp A      &kp S      &kp D     &kp F      &kp G                &kp LEFT_ARROW                &kp H      &kp J      &kp K      &kp L      &kp SEMI  &kp APOS
 &kp LSHFT   &kp Z      &kp X      &kp C     &kp V      &kp B                &kp RIGHT_ARROW               &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
-&kp C_MUTE  &kp GRAVE  &kp LCTRL  &kp LALT  &kp SPACE  &kp F1               &kp ENTER                     &kp ENTER  &kp SPACE  &kp MINUS  &kp EQUAL  &tog 0
+&kp C_MUTE  &kp GRAVE  &kp LCTRL  &kp LALT  &kp SPACE  &kp F1               &kp ENTER                     &kp ENTER  &kp SPACE  &kp MINUS  &kp EQUAL  &to 0
             >;
             display-name = "Game";
         };
