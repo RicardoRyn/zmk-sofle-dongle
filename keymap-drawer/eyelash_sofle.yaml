@@ -259,4 +259,4 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - Main
+  - {t: Main, h: toggle}

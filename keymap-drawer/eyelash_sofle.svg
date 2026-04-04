@@ -1665,7 +1665,8 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <a href="#Main">
 <text x="0" y="-4" class="key tap layer-activator">Main</text>
-</a></g>
+</a><text x="0" y="24" class="key hold">toggle</text>
+</g>
 </g>
 </g>
 </svg>
