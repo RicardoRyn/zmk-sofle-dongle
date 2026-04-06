@@ -76,7 +76,7 @@
 &kp C_MUTE  &kp LGUI  &kp LCTRL  &kp LALT  &kp SPACE  &mo 1                &kp ENTER                     &kp ENTER  &kp SPACE  &kp MINUS  &kp EQUAL  &mo 2
             >;
             display-name = "Main";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         layer_1 {
