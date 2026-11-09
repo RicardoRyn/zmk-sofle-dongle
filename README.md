@@ -27,3 +27,8 @@
 
 <img src="keymap-drawer/eyelash_sofle.svg" >
 
+# 一般步骤
+
+1. 接收器、左右手键盘先断电、然后连按2次reset键，电脑中将弹出名为nicenano的虚拟硬盘
+2. 接受器，左手键盘，右手键盘，依次刷入reset固件
+3. 接受器，左手键盘，右手键盘，依次刷入各自的固件
